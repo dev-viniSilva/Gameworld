@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Siege form</title>
+</head>
+<body class="body-siege">
+    <div class="div-logo">
+        <img src="img/esports-gaming-logo-icon-clipart-15.png" class="logo" alt="Logo" />
+    </div>
+    <header>
+        <a href="index.html" class="ancora-header">Home</a>
+        <a href="events.html" class="ancora-header">Events</a>
+    </header>
+
+    <h2 class="h2-title-major">2026 major form (Siege)</h2>
+
+    <ul class="ul-form">
+        <li class="li-form">
+            <img src="img/siegeagent.png" class="img-fade" alt="Siege agent" />
+        </li>
+
+        <li class="li-form">
+            <form id="form-siege" class="form" novalidate>
+                <div class="div-1input">
+                    <label for="siege-team-name" class="label-major-siege">Team name</label><br />
+                    <input
+                        type="text"
+                        id="siege-team-name"
+                        name="teamName"
+                        class="input-major"
+                        placeholder="Team Name"
+                        required
+                    />
+                    <span class="message-input" id="message-siege-teamname"></span>
+                </div>
+
+                <h2 class="h2-form">Captain info</h2>
+
+                <div class="div-2inputs">
+                    <div class="input-2inputs">
+                        <label for="siege-captain-name" class="label-major-siege">Name1</label><br />
+                        <input
+                            type="text"
+                            id="siege-captain-name"
+                            name="captainName"
+                            class="input-major"
+                            placeholder="Name"
+                            required
+                        />
+                        <span class="message-input" id="message-siege-captain"></span>
+                    </div>
+                    <div class="input-2inputs">
+                        <label for="siege-captain-tag" class="label-major-siege">Tag</label><br />
+                        <input
+                            type="text"
+                            id="siege-captain-tag"
+                            name="captainTag"
+                            class="input-major"
+                            placeholder="Tag"
+                            required
+                        />
+                        <span class="message-input" id="message-siege-captaintag"></span>
+                    </div>
+                </div>
+
+                <div class="div-2inputs">
+                    <div class="input-2inputs">
+                        <label for="siege-email" class="label-major-siege">Email</label><br />
+                        <input
+                            type="email"
+                            id="siege-email"
+                            name="email"
+                            class="input-major"
+                            placeholder="Email"
+                            required
+                        />
+                        <span class="message-input" id="message-siege-email"></span>
+                    </div>
+                    <div class="input-2inputs">
+                        <label for="siege-age" class="label-major-siege">Age</label><br />
+                        <input
+                            type="number"
+                            id="siege-age"
+                            name="age"
+                            class="input-major"
+                            placeholder="Age"
+                            required
+                        />
+                        <span class="message-input" id="message-siege-age"></span>
+                    </div>
+                </div>
+
+                <!-- Player 1 -->
+                <div class="div-2inputs">
+                    <div class="input-2inputs">
+                        <label for="siege-player1-name" class="label-major-siege">Player 1</label><br />
+                        <input
+                            type="text"
+                            id="siege-player1-name"
+                            name="player1name"
+                            class="input-major"
+                            placeholder="Name"
+                            required
+                        />
+                        <span class="message-input" id="message-siege-player1"></span>
+                    </div>
+                    <div class="input-2inputs">
+                        <label for="siege-player1-tag" class="label-major-siege"></label><br />
+                        <input
+                            type="text"
+                            id="siege-player1-tag"
+                            name="player1tag"
+                            class="input-major"
+                            placeholder="Tag"
+                            required
+                        />
+                        <span class="message-input" id="message-siege-player1tag"></span>
+                    </div>
+                </div>
+
+                <!-- Player 2 -->
+                <div class="div-2inputs">
+                    <div class="input-2inputs">
+                        <label for="siege-player2-name" class="label-major-siege">Player 2</label><br />
+                        <input
+                            type="text"
+                            id="siege-player2-name"
+                            name="player2name"
+                            class="input-major"
+                            placeholder="Name"
+                            required
+                        />
+                        <span class="message-input" id="message-siege-player2"></span>
+                    </div>
+                    <div class="input-2inputs">
+                        <label for="siege-player2-tag" class="label-major-siege"></label><br />
+                        <input
+                            type="text"
+                            id="siege-player2-tag"
+                            name="player2tag"
+                            class="input-major"
+                            placeholder="Tag"
+                            required
+                        />
+                        <span class="message-input" id="message-siege-player2tag"></span>
+                    </div>
+                </div>
+
+                <!-- Player 3 -->
+                <div class="div-2inputs">
+                    <div class="input-2inputs">
+                        <label for="siege-player3-name" class="label-major-siege">Player 3</label><br />
+                        <input
+                            type="text"
+                            id="siege-player3-name"
+                            name="player3name"
+                            class="input-major"
+                            placeholder="Name"
+                            required
+                        />
+                        <span class="message-input" id="message-siege-player3"></span>
+                    </div>
+                    <div class="input-2inputs">
+                        <label for="siege-player3-tag" class="label-major-siege"></label><br />
+                        <input
+                            type="text"
+                            id="siege-player3-tag"
+                            name="player3tag"
+                            class="input-major"
+                            placeholder="Tag"
+                            required
+                        />
+                        <span class="message-input" id="message-siege-player3tag"></span>
+                    </div>
+                </div>
+
+                <!-- Player 4 -->
+                <div class="div-2inputs">
+                    <div class="input-2inputs">
+                        <label for="siege-player4-name" class="label-major-siege">Player 4</label><br />
+                        <input
+                            type="text"
+                            id="siege-player4-name"
+                            name="player4name"
+                            class="input-major"
+                            placeholder="Name"
+                            required
+                        />
+                        <span class="message-input" id="message-siege-player4"></span>
+                    </div>
+                    <div class="input-2inputs">
+                        <label for="siege-player4-tag" class="label-major-siege"></label><br />
+                        <input
+                            type="text"
+                            id="siege-player4-tag"
+                            name="player4tag"
+                            class="input-major"
+                            placeholder="Tag"
+                            required
+                        />
+                        <span class="message-input" id="message-siege-player4tag"></span>
+                    </div>
+                </div>
+
+                <div
+                    id="toast-siege"
+                    style="
+                        display: none;
+                        position: fixed;
+                        top: 20px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        background: #333;
+                        color: #fff;
+                        padding: 10px 2.5em;
+                        border-radius: 5px;
+                        z-index: 9999;
+                    "
+                ></div>
+
+                <button class="bt-submit" id="bt-submit-siege" type="submit">Submit</button>
+            </form>
+        </li>
+    </ul>
+
+    <script src="index.js"></script>
+</body>
+</html>

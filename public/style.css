@@ -1,0 +1,447 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(51, 51, 51);
+  text-align: center; 
+}
+
+.body-valorant {
+  background-color: #1d1d1d;
+}
+
+header {
+  margin-top: 1em;
+  gap: 1.5em;
+  display: flex;
+  justify-content: center;
+   
+}
+
+.div-logo {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 100%;
+  max-width: 160px; 
+}
+
+.title {
+  color: white;
+  font-family: "Viga";
+  font-weight: 100;
+  font-size: 38px;
+}
+
+.h2-title-major {
+  color: white;
+  font-family: monospace;
+  font-weight: 200;
+  font-size: 36px;
+}
+
+.h2-major {
+  color: black;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.h2-form {
+  color: white;
+}
+
+.bracket-title {
+  font-size: 40px;
+  color: red;
+  font-family: "Viga";
+  font-weight: 800;
+}
+
+.bracket-paragraph {
+  color: black;
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: 900;
+}
+
+.game-h2 {
+  color: black;
+  font-family: "Viga";
+  font-weight: 300;
+  font-size: 30px;
+}
+
+
+
+.ancora-header {
+  text-decoration: none;
+  font-family: monospace;
+  font-weight: 900;
+  color: black;
+  font-size: 35px;
+}
+
+.ancora-games {
+  text-decoration: none;
+  color: red;
+  font-family: "Viga";
+  font-size: 24px;
+}
+
+.ancora-events {
+  text-decoration: none;
+  border: 1px solid white;
+  background-color: #1d1d1d;
+  color: white;
+  border-radius: 6px;
+  padding: 0.8em 2.2em;
+  transition: 0.1s;
+}
+
+.ancora-events:hover {
+  background-color: black;
+  color: red;
+  border: 1px solid white;
+}
+
+.game-title {
+  text-decoration: none;
+  color: red;
+  font-family: monospace;
+  font-size: 22px;
+}
+
+.game-ancora {
+  text-decoration: none;
+}
+
+
+
+.bracket-div {
+  margin: 5em auto;
+}
+
+.bracket-img {
+  border: 1px solid black ;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1220px; 
+}
+
+.ul-events {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.li-events {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.img-events {
+  width: 100%;
+  max-width: 300px;
+  background-color: rgb(63, 63, 63);
+  border-radius: 3px;
+}
+
+
+
+.form {
+  text-align: center;
+  font-family: monospace;
+}
+
+.ul-form {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  
+}
+
+.li-form {
+  display: block;
+}
+
+.img-fade {
+  width: 800px;
+}
+
+.div-1input {
+  text-align: center;
+  
+}
+
+.div-2inputs {
+  display: flex;
+  gap: 0.2em;
+  text-align: center;
+}
+
+.message-input {
+  color: red;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 1em;
+  text-align:center;
+}
+
+
+.input-2inputs {
+  display: block;
+  text-align: center;
+  
+}
+
+.label-major {
+  font-size: 17px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+}
+
+.label-major-siege {
+   font-size: 17px;
+   font-weight: 900;
+  color: black;
+  text-align: center;
+}
+
+.label-major-csgo {
+  font-size: 17px;
+  font-weight: 900;
+  color: white;
+  text-align: start;
+}
+
+.input-major {
+  background-color: black;
+  padding: 0.7em 1.6em;
+  margin: 1em;
+  color: white;
+  font-weight: 900;
+  font-size: 17px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.input-major1 {
+  background-color: white;
+  padding: 0.7em 1.5em;
+  margin: 1em;
+  color: black;
+  font-weight: 900;
+  font-size: 17px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+
+.bt-submit {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 1em 4em;
+}
+
+.bt-submit:active {
+  background-color: #2c2c2c;
+  transition: all ease 0.2s;
+  border: 1px solid rgb(139, 139, 139);
+  color: red;
+}
+
+hr {
+  height: 2px; 
+  border: none; 
+  background-color: rgb(12, 12, 12); 
+  margin: 2em 0; 
+  display: flex;
+  justify-content: center;
+}
+
+
+.throphy-img {
+  width: 80%;
+  height: 55em;
+}
+
+.p-throphy {
+  color: black;
+  font-size: 28px;
+  
+}
+
+.dragon-icon {
+  width: 315px;
+ margin-top:5em ;
+}
+
+.verrified-icon {
+  width: 100px;
+}
+
+.h2-form-submit {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.p-form-submit {
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.bt-form-submit {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  padding: 0.6em 2em;
+  font-size: 17px;
+}
+
+.ancora-events {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 1em 3em;
+}
+
+
+
+
+@media screen and (max-width: 760px) {
+  
+  /* Alinha os elementos do header em coluna no celular */
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Reduz o tamanho do logo para telas menores */
+  .logo {
+    width: 140px;
+  }
+
+  
+  p,
+  .bracket-paragraph {
+    text-align: start;
+    font-size: 22px;
+    padding: 0 1em;
+  }
+
+  .throphy-img {
+    height: 20em;
+    width: 90%;
+  }
+
+ 
+  /* Coloca os cards de jogo em coluna para facilitar toque e leitura */
+  .game-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .bracket-img,
+  .iframes {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .ul-events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
+
+  
+  .li-events {
+    display: block;
+    text-align: center;
+  }
+
+  
+  .img-events {
+    max-width: 90%;
+  }
+
+ 
+  .img-fade {
+    width: 100%;
+    max-width: 320px;
+  }
+
+ 
+  .ul-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+
+  
+  .div-2inputs {
+    display: flex;
+    flex-direction: column; 
+    gap: 1em;
+  }
+
+ 
+  .input-major,
+  .input-major1 {
+    width: 90%;              
+    padding: 0.8em 0.8em;      
+    font-size: 16px;
+  }
+
+  
+  .bt-submit {
+    padding: 0.8em 2em;
+    font-size: 16px;
+  }
+
+ 
+  .input-2inputs {
+    text-align: center;
+  }
+
+ 
+  .title,
+  .h2-title-major,
+  .h2-major,
+  .game-h2,
+  .bracket-title {
+    font-size: 26px;
+  }
+
+  .game-name {
+    font-size: 20px;
+  }
+
+  
+  .ancora-header {
+    font-size: 28px;
+  }
+
+  
+  .ancora-games {
+    font-size: 20px;
+  }
+}
