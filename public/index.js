@@ -64,7 +64,7 @@ function validateForm(formType, form) {
   const player4TagMsg = document.getElementById(`message-${formType}-player4tag`);
 
 
-  // Team Name validation
+
   if (teamName.value.trim() === "") {
     teamNameMsg.textContent = "Blank team name!";
     valid = false;
@@ -75,7 +75,7 @@ function validateForm(formType, form) {
     teamNameMsg.textContent = "";
   }
 
-  // Captain Name validation
+  
   if (captainName.value.trim() === "") {
     captainMsg.textContent = "Blank name!";
     valid = false;
@@ -86,7 +86,7 @@ function validateForm(formType, form) {
     captainMsg.textContent = "";
   }
 
-  // Captain Tag validation
+
   if (captainTag.value.trim() === "") {
     captainTagMsg.textContent = "Blank tag!";
     valid = false;
@@ -94,7 +94,7 @@ function validateForm(formType, form) {
     captainTagMsg.textContent = "";
   }
 
-  // Email validation
+
   if (email.value.trim() === "") {
     emailMsg.textContent = "Blank email!";
     valid = false;
@@ -105,7 +105,7 @@ function validateForm(formType, form) {
     emailMsg.textContent = "";
   }
 
-  // Age validation
+
   if (age.value.trim() === "") {
     ageMsg.textContent = "Blank input!";
     valid = false;
@@ -116,7 +116,7 @@ function validateForm(formType, form) {
     ageMsg.textContent = "";
   }
 
-  // Player 1 validation
+
   if (player1Name.value.trim() === "") {
     player1NameMsg.textContent = "Blank name!";
     valid = false;
@@ -134,7 +134,7 @@ function validateForm(formType, form) {
     player1TagMsg.textContent = "";
   }
 
-  // Player 2 validation
+
   if (player2Name.value.trim() === "") {
     player2NameMsg.textContent = "Blank name!";
     valid = false;
@@ -152,7 +152,7 @@ function validateForm(formType, form) {
     player2TagMsg.textContent = "";
   }
 
-  // Player 3 validation
+
   if (player3Name.value.trim() === "") {
     player3NameMsg.textContent = "Blank name!";
     valid = false;
@@ -169,8 +169,6 @@ function validateForm(formType, form) {
   } else {
     player3TagMsg.textContent = "";
   }
-
-  // Player 4 validation
   if (player4Name.value.trim() === "") {
     player4NameMsg.textContent = "Blank name!";
     valid = false;

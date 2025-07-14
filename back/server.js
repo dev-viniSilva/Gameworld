@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
-app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 const transport = nodemailer.createTransport({
@@ -20,7 +20,7 @@ const transport = nodemailer.createTransport({
 });
 
 
-app.post('https://gameworld-18qq.onrender.com/sendValorant', async (req, res) => {
+app.post('/sendValorant', async (req, res) => {
   const { teamName, captainName, player1name, player2name, player3name, player4name } = req.body;
 
   const emailData = {
@@ -46,7 +46,7 @@ Player 4: ${player4name}
   }
 });
 
-app.post('https://gameworld-18qq.onrender.com/sendSiege', async (req, res) => {
+app.post('/sendSiege', async (req, res) => {
   const { teamName, captainName, player1name, player2name, player3name, player4name } = req.body;
 
   const emailData = {
@@ -73,7 +73,7 @@ Player 4: ${player4name}
 });
 
 
-app.post('https://gameworld-18qq.onrender.com/sendCsgo', async (req, res) => {
+app.post('/sendCsgo', async (req, res) => {
   const { teamName, captainName, player1name, player2name, player3name, player4name } = req.body;
 
   const emailData = {
