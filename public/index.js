@@ -259,19 +259,19 @@ async function handleSubmit(event, formType, form, url) {
 }
 
 if (valorantForm) {
-  valorantForm.addEventListener("submit", (e) =>
-    handleSubmit(e, "valorant", valorantForm, "http://localhost:3000/sendValorant")
+  valorantForm.addEventListener("submit", (event) =>
+    handleSubmit(event, "valorant", valorantForm, "https://gameworld-18qq.onrender.com/sendValorant")
   );
 }
 
 if (siegeForm) {
-  siegeForm.addEventListener("submit", (e) =>
-    handleSubmit(e, "siege", siegeForm, "http://localhost:3000/sendSiege")
+  siegeForm.addEventListener("submit", (event) =>
+    handleSubmit(event, "siege", siegeForm, "https://gameworld-18qq.onrender.com/sendSiege")
   );
 }
 
 if (csgoForm) {
-  csgoForm.addEventListener("submit", (e) =>
-    handleSubmit(e, "csgo", csgoForm, "http://localhost:3000/sendCsgo")
+  csgoForm.addEventListener("submit", (event) =>
+    handleSubmit(event, "csgo", csgoForm, "https://gameworld-18qq.onrender.com/sendCsgo")
   );
 }
